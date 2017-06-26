@@ -1,18 +1,13 @@
 <template>
-  <div class="page">
-    <counter></counter>
-    <p>
-      To get started, edit files in <code>./client</code> and save.
-    </p>
-  </div>
+  <forgeviewer></forgeviewer>
 </template>
 
 <script>
-import Counter from 'components/Counter'
+import forgeviewer from 'components/ForgeViewer'
 
 export default {
   components: {
-    Counter
+    forgeviewer
   }
 }
 </script>

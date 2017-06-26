@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  count: 0
+  documentId: 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YmxleS9CTEVZX1IzXzAyLmR3Zng'
 }
 
 const mutations = {
