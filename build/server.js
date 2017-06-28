@@ -7,8 +7,8 @@ const webpack = require('webpack')
 const webpackConfig = require('./webpack.dev')
 const config = require('./config')
 const LogPlugin = require('./log-plugin')
-var request = require('request');
-var rp = require('request-promise-native');
+const request = require('request');
+const rp = require('request-promise-native');
 
 const app = express()
 

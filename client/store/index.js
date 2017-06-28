@@ -8,8 +8,8 @@ const state = {
 }
 
 const mutations = {
-  INCREMENT (state) {
-    state.count++
+  CHANGEURN (state, urn) {
+    state.documentId = urn
   },
   DECREMENT (state) {
     state.count--
